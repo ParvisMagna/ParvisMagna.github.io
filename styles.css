@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+/*400 and 700 stand for normal and bold typefaces*/
+
+body{
+	color: #555;
+	margin: 0;
+
+	font-family: 'Montserrat', sans-serif;
+}
+#encabezado {
+	background-color: #1abc9c;
+	height: 150px;
+	line-height: 150px; /*para mover a los elementos dentro del encabezad*/
+}
+#encabezado a{
+	color: white;
+	text-decoration: none; /*le quita lo feo del link*/
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+#encabezado a:hover{
+	color: #222; /*black*/
+}
+#encabezado-titulo{
+	display: block;
+	float: left;
+
+	font-size: 20px;
+	font-weight: bold;
+}
+#encabezado-nav{
+	display: block;
+	float: right;
+}
+#encabezado-nav li{
+	display: inline;
+	padding-left: 20px; /*in order to make space between them*/
+	margin-top: 0; /*in order to eliminate the space above the list*/
+}
+.contenedor{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.publicacion, .acerca{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+.publicacion-autor img{
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+.publicacion-autor span{
+	margin-left: 16px;
+}
+.publicacion-fecha{
+	color: #D2D2D2;
+
+	font-size: 14px;
+	font-weight: bold;
+
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+.publicacion-contenedor:nth-child(even){
+	background-color: #f2f2f2; /*Con esta madre se ponen grises los pares*/
+}
+
+h1, h2, h3, h4{
+	color: #333;
+}
+p{
+	line-height: 1.5;
+}
+
+
+.acerca{
+	text-align: center;
+}
+.acerca-autor img{
+	width: 300px;
+	height: 300px;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+
+
+#pie{
+	background-color: #2f2f2f;
+	padding: 50px 0;
+}
+.columnaa{
+	max-width: 550px;
+	min-width: 400px;
+	display: inline-block;
+	vertical-align: top;
+}
+#pie h4{
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+#pie p{
+	color: white;
+}
+a{
+	color: #1abc9c;
+	text-decoration: none;
+}
+a:hover{
+	color: #F6A623;
+}
